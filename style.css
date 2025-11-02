@@ -1,0 +1,83 @@
+*{
+	  font-family: "Roboto", sans-serif;
+	  margin: 0px;
+	  background: #f7eaea; /* Light pink background */
+
+}
+
+header.top-section {
+    
+    padding: 1rem; /* Adjust padding for height 1rm=16px*/
+    text-align: center; /* Center the content */
+
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem 2rem 3rem; /* Center the nav and add bottom margin */
+   
+}
+
+.top-nav h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.sign-up-btn {
+    background: #0066ff;
+    color: white;
+    border: none;
+	font-size: 0.6rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign-up-btn:hover {
+    background: #004bb5;
+	transition: 0.8s;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.top-content h2 {
+    font-size: 2.4rem; /* Large font size */
+    font-weight: 900;
+    margin: 0 0 1rem 0;
+    color: #000;
+    text-shadow: 1px 1px 5px rgba(168, 50, 80, 0.8); /* Subtle shadow for depth */
+}
+
+.top-content p {
+    font-size: 0.78rem;
+    color: #555;
+    margin-bottom: 1rem;
+	width:50%;
+}
+
+.buy-now-btn {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.buy-now-btn:hover {
+    background: #004bb5;
+	transition: 0.8s;
+}
