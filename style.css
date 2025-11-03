@@ -1,8 +1,11 @@
 *{
 	  font-family: "Roboto", sans-serif;
 	  margin: 0px;
-	  background: #f7eaea; /* Light pink background */
 
+
+}
+body{
+		  background: #f7eaea; /* Light pink background */
 }
 
 header.top-section {
@@ -15,8 +18,7 @@ header.top-section {
 .top-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 3rem 2rem 3rem; /* Center the nav and add bottom margin */
+    margin: 0 3rem 2rem 3rem; /* add  margin */
    
 }
 
@@ -81,3 +83,96 @@ header.top-section {
     background: #004bb5;
 	transition: 0.8s;
 }
+
+
+
+/* Footer container and background */
+footer {
+    background: #e6e6f2; /* Light purple/grey background */
+    color: #000;
+    padding: 3rem 1rem;
+    margin-top: 2rem;
+}
+
+/* Flex container for the top row (logo, social, button) */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+	margin: 5rem 5rem 2rem 5rem; /* add  margin */
+
+}
+
+.footer-info h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer-info p {
+    margin: 0;
+    color: #555; /* Slightly darker grey for the tagline */
+    font-size: 1rem;
+}
+
+/* Right side elements (Social + Button) */
+.footer-left {
+    display: flex;
+    gap:1rem;
+	margin: 1rem 0rem;
+}
+
+.footer-left .social-btns {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-left .social-btns img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.join-btn {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.8rm;
+}
+
+.join-btn:hover {
+    background: #004bb5;
+	transition:0.8s;
+}
+
+/* Footer Link Columns */
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    text-align: left;
+	margin: 0 5rem 2rem 5rem; /* add  margin */
+
+}
+
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0.75rem; /* Increased spacing between links */
+    font-size: 0.7rem;
+    font-weight: normal; /* Ensure links are not bold */
+}
+
+.footer-links>div:last-child{
+    text-align: right;
+	
+	}
+
+.footer-links a:hover {
+    color: #0066ff;
+	cursor: pointer;
+} 
