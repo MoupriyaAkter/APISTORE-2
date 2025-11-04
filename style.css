@@ -83,6 +83,92 @@ header.top-section {
     background: #004bb5;
 	transition: 0.8s;
 }
+.cover_img img{
+	display: block;
+  margin: auto;
+
+}
+/* Card Section Container */
+#card-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 3rem;
+  margin: 1rem 8rem;
+
+}
+
+/* Each Card */
+.card {
+  
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 1rem;
+  border: 5px;
+  border-color: green;
+}
+
+
+
+/* Card Image */
+.card-image  {
+  background-color:white;
+ 
+}
+.card-image img {
+  
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+/* Hover Effect */
+.card-image:hover {
+  background-color:#d9cacc;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  margin: 0.5rem 0;
+}
+
+/* Card Description */
+.card-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0 1rem;
+  line-height: 1.4;
+}
+
+/* Card Price */
+.card-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+/* Button */
+.card-button .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition:  0.3s ;
+}
+
+/* Button Hover */
+.card-button .btn:hover {
+  background-color: #0056b3;
+}
 
 
 
